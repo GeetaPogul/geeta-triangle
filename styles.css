@@ -1,27 +1,32 @@
 
 body{
     background-color: #1f2937;
+    /* background-color: rgb(212, 201, 202); */
     color: #f9fafb;
     margin: 0;
     padding: 0rem;
     line-height: 3rem;
-    font-size: large;
-    
+    font-family: 'Montserrat';
+   
     
 }
 
 nav{
-    background-color:#5b21b6 ;
+    /* background-color:#5b21b6 ; */
+    /* background-color: #ffd362; */
+    background-color:	Coral;
+    /* background-color:rgb(155, 78, 67); */
     padding: 1.5rem;
+    padding-left: 2rem;
     margin-bottom: 2rem;
 
 }
 a{
     text-decoration: none ;
     color: #f9fafb;
-    padding: 0.5rem;
-    font-size: larger;
-    font-weight: bold;
+    padding: 2.5rem;
+    /* font-size: larger; */
+    /* font-weight: bold; */
     
 }
 .container{
@@ -34,7 +39,7 @@ a{
 .angle-input
 {
     display: block;
-    margin-left:27vw;
+    margin-left:33vw;
     width:27rem;
     height:1.8rem;
    
@@ -42,24 +47,26 @@ a{
 
 }
 .angle{
-    margin-left:27vw;
-    font-size: large;
+    margin-left:33vw;
+    /* font-size: x-small; */
 }
 .btn{
-    margin-left:27vw;
+    margin-left:33vw;
     width:27.5rem;
     height:2.5rem;
     border-radius: 1px;
     background-color: #5b21b6;
     color: #f9fafb;
     border-style: none;
-    font-size: larger;
+    /* font-size: larger; */
     font-weight: bold;
 }
 #output-div{
     text-align: center;
     font-size: x-large;
 }
+
+
 
 
 /* Quiz triangle styles are follow */
@@ -79,7 +86,7 @@ label,input{
 }
 .quiz-form{
     line-height: 1.5rem;
-    font-size: larger;
+    /* font-size: larger; */
     
 }
 
@@ -105,7 +112,7 @@ label,input{
    background-color: #5b21b6;
    border-style: none;
    color: #f9fafb;
-   font-size: larger;
+   /* font-size: larger; */
 border-radius: 4px;
 
 }
@@ -116,29 +123,41 @@ border-radius: 4px;
 
 /* Chech Hypotenuse styles are follow */
 
-h1{
+h2{
     text-align: center;
 }
 #formula-hypotenuse{         
     border: 2px solid  #5b21b6;
-    margin-left:15rem;
-    margin-right:10em;
+    margin-left:20rem;
+    margin-right:16rem;
     height: 40px;
     padding: 0.5rem;
     text-align: center;
     
 }
 .hypo{
-    margin-left:27vw;
-    font-size: larger;
+    margin-left:33vw;
+    /* font-size: larger; */
 
 }
 .side-input{
     display: block;
-    margin-left:27vw;
-    width:27rem;
+    margin-left:33vw;
+    width:25rem;
     height:1.8rem;
    
+}
+
+#hypotenuse_btn1{
+    margin-left:33vw;
+    width:24.5rem;
+    height:2.5rem;
+    border-radius: 1px;
+    background-color: #5b21b6;
+    color: #f9fafb;
+    border-style: none;
+    /* font-size: larger; */
+    font-weight: bold;
 }
 
 /* Chech Area of Triangle styles are follow */
@@ -173,7 +192,7 @@ h1{
         background-color: #5b21b6;
         color: #f9fafb;
         border-style: none;
-        font-size: larger;
+        /* font-size: larger; */
         font-weight: bold;
       
 }
