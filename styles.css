@@ -1,27 +1,35 @@
 
 body{
-    background-color: #1f2937;
-    color: #f9fafb;
+    background-color: #faf0e6;
+    /* color: #f9fafb; */
     margin: 0;
     padding: 0rem;
     line-height: 3rem;
-    font-size: large;
+    font-family: merriweather;
+    /* font-size: large; */
     
     
 }
 
 nav{
-    background-color:#5b21b6 ;
+    /* background-color:#7f1734 ; */
+    /* background-color: #be0032; */
+    /* background-color: #9c2542; */
+    /* background-color: #be0032; */
+    /* background-color: #841b2d; */
+    background-color: #a32638;
     padding: 1.5rem;
+    
     margin-bottom: 2rem;
 
 }
 a{
-    text-decoration: none ;
+    text-decoration: none;
     color: #f9fafb;
     padding: 0.5rem;
     font-size: larger;
-    font-weight: bold;
+    /* font-weight: bold; */
+    padding-left: 3rem;
     
 }
 .container{
@@ -34,7 +42,7 @@ a{
 .angle-input
 {
     display: block;
-    margin-left:27vw;
+    margin-left:33vw;
     width:27rem;
     height:1.8rem;
    
@@ -42,15 +50,15 @@ a{
 
 }
 .angle{
-    margin-left:27vw;
+    margin-left:33vw;
     font-size: large;
 }
 .btn{
-    margin-left:27vw;
+    margin-left:33vw;
     width:27.5rem;
     height:2.5rem;
     border-radius: 1px;
-    background-color: #5b21b6;
+    background-color:  #a32638;
     color: #f9fafb;
     border-style: none;
     font-size: larger;
@@ -59,6 +67,19 @@ a{
 #output-div{
     text-align: center;
     font-size: x-large;
+}
+
+#hypotenuse-btn1{
+    margin-left:33vw;
+    width:25.5rem;
+    height:2.5rem;
+    border-radius: 1px;
+    background-color:  #a32638;
+    color: #f9fafb;
+    border-style: none;
+    font-size: large;
+    
+    /* font-weight: bold; */
 }
 
 
@@ -71,11 +92,11 @@ label,input{
 #div1{
     
     padding:1rem;
-    margin-left:17rem;
-    margin-right:15rem;
+    margin-left:25rem;
+    margin-right:25rem;
     height: 130px;
     border-radius: 0.5rem;
-    border: 2px solid #5b21b6;
+    border: 2px solid #a32638;
 }
 .quiz-form{
     line-height: 1.5rem;
@@ -86,11 +107,11 @@ label,input{
 #div2{
     
     padding:1rem;
-    margin-left:17rem;
-    margin-right:15rem;
+    margin-left:25rem;
+    margin-right:25rem;
     height: 120px;
     border-radius: 0.5rem;
-    border: 2px solid #5b21b6;
+    border: 2px solid #a32638;
     margin-bottom: 1rem;
 } 
 
@@ -99,10 +120,10 @@ label,input{
 }
 
 #submit-ans-btn{
-   width:32rem ;
-   margin-left:17rem;
+   width:28rem ;
+   margin-left:26rem;
    height: 2.4rem;
-   background-color: #5b21b6;
+   background-color: #a32638;
    border-style: none;
    color: #f9fafb;
    font-size: larger;
@@ -116,28 +137,29 @@ border-radius: 4px;
 
 /* Chech Hypotenuse styles are follow */
 
-h1{
+h2{
     text-align: center;
 }
 #formula-hypotenuse{         
-    border: 2px solid  #5b21b6;
-    margin-left:15rem;
-    margin-right:10em;
+    border: 2px solid  #a32638;
+    margin-left: 23rem;
+    margin-right:25rem;
     height: 40px;
     padding: 0.5rem;
     text-align: center;
     
 }
 .hypo{
-    margin-left:27vw;
+    margin-left:32vw;
     font-size: larger;
 
 }
 .side-input{
     display: block;
-    margin-left:27vw;
+    margin-left:32vw;
     width:27rem;
     height:1.8rem;
+    padding-left: 0.5rem;
    
 }
 
@@ -146,31 +168,31 @@ h1{
 #base{
     display: block;
     /* margin-left: 280px; */
-    margin-left:25vw;
+    margin-left:27vw;
     width:27rem;
     height:1.8rem;
    
 }
 #height{
     display: block;
-    margin-left:25vw;
+    margin-left:27vw;
     width:27rem;
     height:1.8rem;
    
 }
 .hypo-area{
-    margin-left:25vw;
+    margin-left:27vw;
     font-size: large;
 
 }
 
 #check-area-btn{
     
-        margin-left:25vw;
-        width:27.5rem;
+        margin-left:28vw;
+        width:26.5rem;
         height:2.5rem;
         border-radius: 1px;
-        background-color: #5b21b6;
+        background-color: #a32638;
         color: #f9fafb;
         border-style: none;
         font-size: larger;
