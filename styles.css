@@ -5,8 +5,8 @@ body{
     margin: 0;
     padding: 0rem;
     line-height: 3rem;
-    font-family: merriweather;
-    /* font-size: large; */
+     font-family: candara; 
+
     
     
 }
@@ -63,13 +63,14 @@ a{
     border-style: none;
     /* font-size: larger; */
     font-weight: bold;
+    font-size:18px
 }
 #output-div{
     text-align: center;
     font-size: x-large;
 }
 
-#hypotenuse-btn1{
+#hypotenuse-btn{
     margin-left:33vw;
     width:25.5rem;
     height:2.5rem;
@@ -130,6 +131,7 @@ label,input{
    color: #f9fafb;
    /* font-size: larger; */
 border-radius: 4px;
+font-size: 18px;
 
 }
 #output{
@@ -165,7 +167,7 @@ h2{
    
 }
 
-#hypotenuse_btn1{
+#hypotenuse_btn{
     margin-left:33vw;
     width:24.5rem;
     height:2.5rem;

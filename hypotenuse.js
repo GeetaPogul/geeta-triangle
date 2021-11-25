@@ -1,23 +1,33 @@
-const sides = document.querySelectorAll(".side-input");
+const sides = document.querySelectorAll('.side-input');
 
-const hypotenuseButton = document.querySelector("#hypotenuse-btn1");
+const hypotenuseBtn = document.querySelector('#hypotenuse-btn');
 
-const outputDiv = document.querySelector("#output-div");
+const outputEl = document.querySelector('#output-div');
 
 
-function calculateSumOfSquares(a,b){
-    const sumOfSquares = a*a + b*b
-    // console.log(sumOfSquares);
-    return sumOfSquares 
+function calculateSumofSquares(a,b)
+{
+    const sumOfSquares = a*a + b*b;
+    // console.log(sumofSquares);
+    return sumOfSquares;
+
 }
 
-function calculateHypotenuse(){
-    const sumOfSquares = calculateSumOfSquares(Number(sides
+
+
+
+function calculateHypotenuse()
+{
+    // console.log("hypotenuse");
+    const sumOfSquares =  calculateSumofSquares(Number(sides
         [0].value),Number(sides[1].value));
 
-    const lengthOfHypotenuse = Math.sqrt(sumOfSquares);
- 
-    outputDiv.innerText = " The length Hypotenuse is "  + lengthOfHypotenuse;
+    const lenghtOfHypotenuse = Math.sqrt(sumOfSquares)
+    // console.log(sumOfSquares);
+
+    outputEl.innerText = "The length of hypotenuse is " +
+   lenghtOfHypotenuse
+
 }
 
-hypotenuseButton.addEventListener('click',calculateHypotenuse)
+hypotenuseBtn.addEventListener("click",calculateHypotenuse);
