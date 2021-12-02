@@ -98,7 +98,7 @@ label,input{
 }
 .quiz-form{
     line-height: 1.5rem;
-    /* font-size: larger; */
+    
     
 }
 
@@ -176,7 +176,6 @@ h2{
 
 #base{
     display: block;
-    /* margin-left: 280px; */
     margin-left:27vw;
     width:27rem;
     height:1.8rem;
@@ -204,7 +203,7 @@ h2{
         background-color: #a32638;
         color: #f9fafb;
         border-style: none;
-        /* font-size: larger; */
+        
         font-weight: bold;
       
 }
