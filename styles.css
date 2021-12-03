@@ -113,6 +113,19 @@ label,input{
     margin-bottom: 1rem;
 } 
 
+
+#div3{
+    
+    padding:1rem;
+    margin-left:25rem;
+    margin-right:25rem;
+    height: 150px;
+    border-radius: 0.5rem;
+    border: 2px solid #a32638;
+    margin-bottom: 1rem;
+}
+
+
 #quiz-heading{
     text-align: center;
 }
